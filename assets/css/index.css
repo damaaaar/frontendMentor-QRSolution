@@ -1,0 +1,41 @@
+.main {
+  background-color: var(--gris-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main__contenedor {
+  background-color: var(--blanco);
+  width: 22rem;
+  height: 34rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--outfit);
+}
+
+.main__img {
+  transform: scale(0.9);
+  border-radius: 10px;
+}
+
+.main__titulo {
+  font-family: inherit;
+  margin: 1rem 1.5rem;
+  color: var(--azul-oscuro);
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main__descripcion {
+  font-family: inherit;
+  margin: 0 1.5rem;
+  font-size: 1.1rem;
+  color: var(--gris-azulado);
+  text-align: center;
+}
