@@ -1,0 +1,7 @@
+:root {
+  --blanco: hsl(0, 0%, 100%);
+  --gris-claro: hsl(212, 45%, 89%);
+  --gris-azulado: hsl(220, 15%, 55%);
+  --azul-oscuro: hsl(218, 44%, 22%);
+  --outfit: "Outfit", sans-serif;
+}
